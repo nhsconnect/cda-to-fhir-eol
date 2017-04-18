@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Flag xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/flag.xsd">
+	<id value="61be6900-bc3c-4a28-96dc-746381b7c1be"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/cofe-allergy-flag-1"/>
+	</meta>
+		<extension url="http://fhir.nhs.net/StructureDefinition/Extension-COFE-AllergyFlagAssociation-1">
+			<valueReference>
+				<reference value="AllergyIntolerance/9a1c380c-e8b0-4814-aefc-ee69d39b1079"/>
+			</valueReference>
+		</extension>
+	<identifier>
+		<value value="2861cc7e-8916-4009-9aee-4802c3fa951d"/>
+	</identifier>
+	<category>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="886921000000105"/>
+			<display value="Allergies and adverse reactions"/>
+		</coding>
+	</category>
+	<status value="active"/>
+	<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</subject>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="416098002"/>
+			<display value="Drug allergy"/>
+		</coding>
+	</code>
+</Flag>

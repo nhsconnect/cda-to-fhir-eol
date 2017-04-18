@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Flag xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/flag.xsd">
+	<id value="0919ca00-56c4-46f3-b435-8202b00563f0"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/careconnect-toc-medication-flag-1"/>
+	</meta>
+		<extension url="http://fhir.nhs.net/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1">
+			<valueReference>
+				<reference value="MedicationStatement/1092404d-00c9-4f9e-b7df-9abbc8762c91"/>
+			</valueReference>
+		</extension>
+	<identifier>
+		<value value="68c66ebf-b8e4-4030-a00a-1f0ae9aef40d"/>
+	</identifier>
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/flag-category"/>
+			<code value="drug"/>
+			<display value="Drug"/>
+		</coding>
+	</category>
+	<status value="active"/>
+	<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</subject>
+	<code>
+		<coding>
+			<system value="http://fhir.nhs.net/medication-flag-code-1"/>
+			<code value="03"/>
+			<display value="Stop medication when course complete"/>
+		</coding>
+	</code>
+</Flag>

@@ -1,0 +1,1 @@
+Extension to carry the medication course status associated with a medication item. 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Condition xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/condition.xsd">
+	<id value="cf566277-b3be-4765-a6ff-d7d3846488e5"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-condition-1"/>
+	</meta>
+	<identifier>
+		<value value="aac3df6c-8027-4977-ad4c-68c6464cdb5b"/>
+	</identifier>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/> 
+		<display value="Diane Hembury"/>
+	</patient>
+	<asserter>
+		<reference value="Practitioner/8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
+	</asserter>
+	<dateRecorded value="2008-06-11"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="301485011"/>
+			<display value="Asthma"/>
+		</coding>
+	</code> 
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/ValueSet/condition-category"/>
+			<code value="diagnosis"/>
+			<display value="Diagnosis"/>
+		</coding>	
+	</category>
+	<verificationStatus value="confirmed"/>
+</Condition>

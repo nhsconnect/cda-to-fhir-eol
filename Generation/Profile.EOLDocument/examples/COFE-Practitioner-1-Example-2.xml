@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Practitioner xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/practitioner.xsd">
+	<id value="78d7ac3f-17a4-419a-964f-84148c9eef94"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-practitioner-1"/>
+	</meta>
+	<name>
+		<family value="Shaw"/>
+		<given value="Mandy"/>
+		<prefix value="Dr."/>
+	</name>
+	<practitionerRole>
+		<!--Example is an sds org <id root="2.16.840.1.113883.2.1.3.2.4.19.1" extension="RPY01"/><name>Coordinate My Care</name> This can't be put in as its ods org only RPY01 is the Royal Marsden Hospital (London)-->
+			<managingOrganization>
+			<reference value="Organization/1474506e-609d-412e-952b-4bc74d769038"/>
+			<display value="The Royal Marsden Hospital (London)"/>
+		</managingOrganization>
+		<role>
+			<coding>
+				<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+				<code value="NR2040"/>
+				<display value="Palliative Care Physician"/>
+			</coding>
+		</role>
+	</practitionerRole>
+	<communication>
+		<coding>
+			<system value="http://fhir.nhs.net/ValueSet/human-language-1"/>
+			<code value="en"/>
+			<display value="English"/>
+		</coding>
+	</communication>
+</Practitioner>

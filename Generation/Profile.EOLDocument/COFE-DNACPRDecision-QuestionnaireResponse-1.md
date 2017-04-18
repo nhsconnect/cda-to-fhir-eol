@@ -1,0 +1,1 @@
+This QuestionnaireResponse Resource carries answers to questions regarding a patient's decision on cardio-pulmonary resuscitation.

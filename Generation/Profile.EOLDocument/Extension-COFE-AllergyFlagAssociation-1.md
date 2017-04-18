@@ -1,0 +1,1 @@
+This Extension is used to specify the links between an Allergy Flag and its associated AllergyIntolerence resource(s).

@@ -1,0 +1,1 @@
+This Care Plan resource represents a patients End of Life Care Plan.

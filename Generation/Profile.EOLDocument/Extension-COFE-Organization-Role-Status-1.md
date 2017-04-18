@@ -1,0 +1,1 @@
+An extension to represent a code to describe the status of the role.

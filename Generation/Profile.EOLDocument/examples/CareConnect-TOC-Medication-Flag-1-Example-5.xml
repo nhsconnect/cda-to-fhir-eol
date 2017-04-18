@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Flag xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/flag.xsd">
+	<id value="b4033faf-2df3-4031-b2b0-fe1b20c6b638"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/careconnect-toc-medication-flag-1"/>
+	</meta>
+		<extension url="http://fhir.nhs.net/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1">
+			<valueReference>
+				<reference value="MedicationStatement/539258fb-08de-44a4-8683-f72b235c43af"/>
+			</valueReference>
+		</extension>
+	<identifier>
+		<value value="8b6c1e3a-1c9b-42f8-bec8-1d5e95c35692"/>
+	</identifier>
+	<category>
+		<coding>
+			<system value="http://hl7.org/fhir/flag-category"/>
+			<code value="drug"/>
+			<display value="Drug"/>
+		</coding>
+	</category>
+	<status value="active"/>
+	<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</subject>
+	<code>
+		<coding>
+			<system value="http://fhir.nhs.net/medication-flag-code-1"/>
+			<code value="02"/>
+			<display value="Continue medication indefinitely"/>
+		</coding>
+	</code>
+</Flag>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Encounter xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/encounter.xsd">
+	<id value="58e57290-6035-4774-9ec0-9fd0c47a0587"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/gpconnect-encounter-1"/>
+	</meta>
+	<identifier>
+		<value value="b75bd49f-871e-489f-a90d-8c8c464d19d0"/>
+	</identifier>
+	<status value="finished"/>
+	<class value="inpatient"/>
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="24882007"/>
+			<display value="Medical consultation on hospital inpatient"/>
+		</coding>
+	</type>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Sally Taylor"/>
+	</patient>
+	<participant>
+		<type>
+			<coding>
+				<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+				<code value="R0050"/>
+				<display value="Consultant"/>
+			</coding>
+		</type>
+	</participant>
+	<period>
+		<start value="2016-09-01T23:00:00+00:00"/>
+		<end value="2016-09-13T11:00:00+00:00"/>
+	</period>
+	<location>
+		<location>
+			<reference value="Location/01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
+			<display value="RR801"/>
+		</location>
+	</location>
+</Encounter>

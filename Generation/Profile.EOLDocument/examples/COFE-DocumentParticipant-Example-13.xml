@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Practitioner xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/practitioner.xsd">
+	<id value="80a64935-6782-47bd-8cc0-05d2bf0222f8"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-practitioner-1"/>
+	</meta>
+	<name>
+	<use value="official"/>
+		<family value="Care-Contact"/>
+		<given value="A"/>
+		<prefix value="Ms"/>
+	</name>
+	<telecom>
+		<system value="phone"/>
+		<value value="12345789001"/>
+		<use value="work"/>
+	</telecom>
+		<telecom>
+		<system value="phone"/>
+		<value value="09876654321"/>
+		<use value="mobile"/>
+	</telecom>
+	<practitionerRole>
+		<managingOrganization>
+			<reference value="Organization/5584b63c-9a7d-4fce-854f-a10ed87218fe"/>
+			<display value="Care Contact"/>
+		</managingOrganization>
+				<role>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="184152007"/>
+						<display value="Care Assistant"/>
+					</coding>
+				</role>
+	</practitionerRole>
+
+</Practitioner>

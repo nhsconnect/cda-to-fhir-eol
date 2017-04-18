@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Condition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/condition.xsd">
+	<id value="8197e5be-1483-48e6-bf30-842f5184d4cf"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/careconnect-condition-1"/>
+	</meta>
+	<identifier>
+		<value value="967d26cb-10cd-4291-9d5c-30ac79e42719"/>
+	</identifier>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</patient>
+	<encounter>
+		<reference value="Encounter/4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
+		<display value="Emergency department patient visit"/>
+	</encounter>
+	<asserter>
+		<reference/>
+	</asserter>
+	<dateRecorded value="2015-02-12"/>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="1488382011"/>
+			<display value="Acute coronary syndrome"/>
+		</coding>
+	</code>
+	<clinicalStatus value="active"/>
+	<verificationStatus value="confirmed"/>
+	<onsetDateTime value="2015-02-12T12:00:00+00:00"/>
+	<evidence>
+	<code>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="2676104013"/>
+			<display value="Cardiac chest pain"/>
+		</coding>
+	</code>
+	</evidence>
+</Condition>

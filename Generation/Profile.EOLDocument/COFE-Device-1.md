@@ -1,0 +1,1 @@
+This Device profile is used to identify an authoring device or system where SDS is not appropriate or available.

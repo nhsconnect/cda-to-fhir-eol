@@ -1,0 +1,1 @@
+This Flag Resource represents risks. Risks include to self, to others, from others and clinical risks.

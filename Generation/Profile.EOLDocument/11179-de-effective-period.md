@@ -1,0 +1,1 @@
+An extension to define the time period during which the the provider organisation is part of the larger organisation.

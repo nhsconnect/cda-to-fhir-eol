@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--AnticipatoryMedsLocation xml example-->
+<Location xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../schemas/location.xsd">
+	<id value="15644b91-38d2-47c3-ad91-3dc34529f2ab"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-anticipatorymeds-location-location-1"/>
+	</meta>
+	<!--CDA Vocabulary code represented in FHIR as a valueset-->
+	<type>
+		<coding >
+			<system value="http://fhir.nhs.net/ValueSet/eol-observation-1"/>
+			<code value="EOLBLC"/>
+			<display value="EOL Anticipatory Medicine Box Location"/>
+		</coding>
+	</type>
+	<!--FHIR valueset to identify the phyical llocation-->
+	<physicalType>
+		<coding >
+			<system value="http://hl7.org/fhir/ValueSet/location-physical-type"/>
+			<code value="ca"/>
+			<display value="Cabinet"/>
+		</coding>
+	</physicalType>
+	</Location>
+	

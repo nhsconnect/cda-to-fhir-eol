@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+ 	<meta>
+		<lastUpdated value="2017-01-20T00:00:00+01:00"/>
+	</meta>
+  <url value="http://fhir.nhs.net/ValueSet/medication-flag-code-1"/>
+  <name value="Medication Flag Code"/>
+  <status value="draft"/>
+  <description value="Detail codes identifying specific medication flags."/>
+  <codeSystem>
+    <system value="http://fhir.nhs.net/medication-flag-code-1"/>
+       <concept>
+        <code value="01"/>
+        <display value="Do not discontinue medication"/>
+	  </concept>
+  <concept>
+        <code value="02"/>
+        <display value="Continue medication indefinitely"/>
+	  </concept>
+	    <concept>
+        <code value="03"/>
+        <display value="Stop medication when course complete"/>
+	  </concept>
+    </codeSystem>
+</ValueSet>
+
+  

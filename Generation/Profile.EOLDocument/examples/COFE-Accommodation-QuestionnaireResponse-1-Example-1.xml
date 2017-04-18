@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--QuestionnaireResponse xml example-->
+<QuestionnaireResponse xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/QuestionnaireResponse.xsd">
+	<id value="eef5a652-29dc-40b0-b464-202c69ae50a2"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-accommodation-questionnaireresponse-1"/>
+	</meta>
+	<identifier>
+		<value value="fd60ffd5-3e41-4b68-aa62-37f5407d8c04"/>
+	</identifier>
+	<status value="completed">
+	</status>
+		<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Diane Hembury"/>
+	</subject>
+	<author>
+		<reference value="Practitioner/78d7ac3f-17a4-419a-964f-84148c9eef94"/>
+		<display value="Dr. Mandy Shaw"/>
+	</author>
+	<authored value="2016-03-02T09:05:00+01:00"></authored>
+	<group>
+		<question>
+		<linkId value="HRF"/>
+			<text value="Whats is the persons current housing situtation ?"/>
+			<answer>
+				<valueCoding>
+					<system value="http://snomed.info/sct"/>
+					<code value="250948011"/>
+				</valueCoding>
+			</answer>
+		</question>
+		<question>
+		<!--Not sure this even maps to the question, but grabbed from CDA model-->
+		<linkId value="HRF"/>
+			<text value="Does the patient live alone?"/>
+		<!--	Could create a value set/ snomed subest to support this. CDA uses 160943002 - lives alone concept-->
+			<answer>
+			<valueCoding>
+					<system value="http://snomed.info/sct"/>
+					<code value="250547013"/>
+			</valueCoding>
+			</answer>
+		</question>
+	</group>
+</QuestionnaireResponse>

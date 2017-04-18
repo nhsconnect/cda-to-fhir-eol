@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<AllergyIntolerance xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/allergyintolerance.xsd">
+	<id value="9a1c380c-e8b0-4814-aefc-ee69d39b1079"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/careconnect-toc-allergyintolerance-1"/>
+	</meta>
+	<extension url="http://fhir.nhs.net/StructureDefinition/Extension-COFE-AllergyFlag-1">
+		<valueReference>
+			<reference value="Flag/61be6900-bc3c-4a28-96dc-746381b7c1be"/>
+		</valueReference>
+	</extension>
+	<identifier>
+		<value value="06d65f0f-117a-43c6-84ea-f28c3bd664a2"/>
+	</identifier>
+	<onset value="2015-02-12T12:00:00+00:00"/>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</patient>
+	<substance>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="373270004"/>
+			<display value="Penicillin"/>
+		</coding>
+	</substance>
+	<status value="active"/>
+	<type value="allergy"/>
+	<category value="medication"/>
+	<reaction>
+		<manifestation>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="271807003"/>
+				<display value="Eruption"/>
+			</coding>
+		</manifestation>
+	</reaction>
+</AllergyIntolerance>

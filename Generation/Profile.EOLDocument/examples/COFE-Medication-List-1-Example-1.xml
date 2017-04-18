@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<List xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/list.xsd">
+	<id value="d0710501-2e32-4cbd-bd63-a14354bbcd0f"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/cofe-medication-list-1"/>
+	</meta>
+	<identifier>
+		<value value="cb8e31b2-15d4-4fe6-a690-13934348fbf1"/>
+	</identifier>
+	<code>
+		<coding>
+			<system value="http://hl7.org/fhir/list-example-use-codes"/>
+			<code value="medications"/>
+			<display value="Medication List"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</subject>
+	<status value="current"/>
+	<mode value="snapshot"/>
+	<entry>
+		<flag>
+			<coding>
+				<system value="http://fhir.nhs.net/medication-list-flag-code-1"/>
+				<code value="08"/>
+				<display value="This is an active medication."/>
+			</coding>
+		</flag>
+		<item>
+			<reference value="MedicationStatement/a94d6293-cfc0-45a3-b7a8-ae7040f990f1"/>
+		</item>
+	</entry>
+	<entry>
+		<flag>
+			<coding>
+				<system value="http://fhir.nhs.net/medication-list-flag-code-1"/>
+				<code value="08"/>
+				<display value="This is an active medication."/>
+			</coding>
+		</flag>
+		<item>
+			<reference value="MedicationStatement/8cb5665c-6d66-4ed2-8cea-97cb8f559252"/>
+		</item>
+	</entry>
+	<entry>
+		<flag>
+			<coding>
+				<system value="http://fhir.nhs.net/medication-list-flag-code-1"/>
+				<code value="08"/>
+				<display value="This is an active medication."/>
+			</coding>
+		</flag>
+		<item>
+			<reference value="MedicationStatement/934ac400-f197-4bbc-a307-5ce8d271d4dd"/>
+		</item>
+	</entry>
+		<entry>
+		<flag>
+			<coding>
+				<system value="http://fhir.nhs.net/medication-list-flag-code-1"/>
+				<code value="08"/>
+				<display value="This is an active medication."/>
+			</coding>
+		</flag>
+		<item>
+			<reference value="MedicationStatement/1092404d-00c9-4f9e-b7df-9abbc8762c91"/>
+		</item>
+	</entry>
+		<entry>
+		<flag>
+			<coding>
+				<system value="http://fhir.nhs.net/medication-list-flag-code-1"/>
+				<code value="08"/>
+				<display value="This is an active medication."/>
+			</coding>
+		</flag>
+		<item>
+			<reference value="MedicationStatement/539258fb-08de-44a4-8683-f72b235c43af"/>
+		</item>
+	</entry>
+			<entry>
+		<flag>
+			<coding>
+				<system value="http://fhir.nhs.net/medication-list-flag-code-1"/>
+				<code value="08"/>
+				<display value="This is an active medication."/>
+			</coding>
+		</flag>
+		<item>
+			<reference value="MedicationStatement/11baa8fd-b670-47d1-ab3a-183488af5c6e"/>
+		</item>
+	</entry>
+</List>

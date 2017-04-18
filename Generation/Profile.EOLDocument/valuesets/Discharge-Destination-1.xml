@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<meta>
+		<lastUpdated value="2015-06-23T00:00:00+01:00"/>
+	</meta>
+	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
+		<valueUri value="urn:oid:2.16.840.1.113883.2.1.3.2.4.16.40"/>
+	</extension>
+	<url value="http://fhir.nhs.net/ValueSet/Discharge-Destination-1"/>
+	<name value="Discharge Destination NHS Data Model and Dictionary"/>
+	<status value="active"/>
+	<description value="A code representing the destination of a patient on completion of a Hospital Provider Spell, or a note that the patient died or was a still birth, using the values listed in the NHS Data Model and Dictionary definition for Discharge Destination."/>
+	<codeSystem>
+		<system value="http://fhir.nhs.net/Discharge-Destination-1"/>
+		<concept>
+			<code value="19"/>
+			<display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by local authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes PATIENTS with no fixed abode."/>
+		</concept>
+		<concept>
+			<code value="29"/>
+			<display value="Temporary place of residence when usually resident elsewhere (includes hotel, residential educational establishment)"/>
+		</concept>
+		<concept>
+			<code value="30"/>
+			<display value="Repatriation from high security psychiatric accommodation in an NHS hospital provider (NHS trust)"/>
+		</concept>
+		<concept>
+			<code value="37"/>
+			<display value="Court"/>
+		</concept>
+		<concept>
+			<code value="38"/>
+			<display value="Penal establishment or police station"/>
+		</concept>
+		<concept>
+			<code value="48"/>
+			<display value="High Security Psychiatric Hospital, Scotland"/>
+		</concept>
+		<concept>
+			<code value="49"/>
+			<display value="NHS other hospital provider - high security psychiatric accommodation"/>
+		</concept>
+		<concept>
+			<code value="50"/>
+			<display value="NHS other hospital provider - medium secure unit"/>
+		</concept>
+		<concept>
+			<code value="51"/>
+			<display value="NHS other hospital provider - ward for general patients or the younger physically disabled"/>
+		</concept>
+		<concept>
+			<code value="52"/>
+			<display value="NHS other hospital provider - ward for maternity patients or neonates"/>
+		</concept>
+		<concept>
+			<code value="53"/>
+			<display value="NHS other hospital provider - ward for patients who are mentally ill or have learning disabilities"/>
+		</concept>
+		<concept>
+			<code value="54"/>
+			<display value="NHS run care home"/>
+		</concept>
+		<concept>
+			<code value="65"/>
+			<display value="Local Authority residential accommodation i.e. where care is provided"/>
+		</concept>
+		<concept>
+			<code value="66"/>
+			<display value="Local Authority foster care"/>
+		</concept>
+		<concept>
+			<code value="79"/>
+			<display value="Not applicable - patient died or still birth"/>
+		</concept>
+		<concept>
+			<code value="84"/>
+			<display value="Non-NHS run hospital - medium secure unit"/>
+		</concept>
+		<concept>
+			<code value="85"/>
+			<display value="Non-NHS (other than Local Authority) run care home"/>
+		</concept>
+		<concept>
+			<code value="87"/>
+			<display value="Non-NHS run hospital"/>
+		</concept>
+		<concept>
+			<code value="88"/>
+			<display value="Non-NHS (other than Local Authority) run Hospice"/>
+		</concept>
+	</codeSystem>
+</ValueSet>

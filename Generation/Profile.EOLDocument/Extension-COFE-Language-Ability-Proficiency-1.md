@@ -1,0 +1,1 @@
+An extension to represent to the patient's proficiency to communicate in the mode stated for the stated language.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<List xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/list.xsd">
+	<id value="95e8f8d0-dfc3-4c72-a9dc-7ba1ccd1fab4"/>
+	<meta>
+		<profile value="http://hl7.org/fhir/StructureDefinition/cofe-allergies-list-1"/>
+	</meta>
+	<identifier>
+		<value value="6ee0967d-aaa7-411a-9398-518c089ce3a1"/>
+	</identifier>
+	<code>
+		<coding>
+			<system value="http://hl7.org/fhir/list-example-use-codes"/>
+			<code value="allergies"/>
+			<display value="Allergies"/>
+		</coding>
+	</code>
+	<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Mr Richard Smith"/>
+	</subject>
+	<status value="current"/>
+	<mode value="snapshot"/>
+	<entry>
+		<item>
+			<reference value="AllergyIntolerance/9a1c380c-e8b0-4814-aefc-ee69d39b1079"/>
+		</item>
+	</entry>
+</List>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Observation xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/observation.xsd">
+	<id value="f6231c77-fc41-4e2a-bf18-08e22b450a22"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-housing-observation-1"/>
+	</meta>
+	<identifier>
+		<value value="b663ac06-3965-4893-98a3-7325b8146c34"/>
+	</identifier>
+<status value="final"/>
+<code>
+		<coding>
+			<system value="http://fhir.nhs.net/ValueSet/cda-observation-type-1"/>
+			<code value="HRF"/>
+			<display value="Housing Related Finding"/>
+		</coding>
+</code>
+<subject>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Diane Hembury"/>
+	</subject>
+<effectivePeriod>
+	<start value="2016-03-02"/>
+</effectivePeriod>
+<valueCodeableConcept>
+	<coding>
+		<system value="http://fhir.nhs.net/ValueSet/housing-snct-1"/>
+		<code value="408821002"/>
+		<display value="Lives with partner"/>
+	</coding>
+</valueCodeableConcept>
+</Observation>

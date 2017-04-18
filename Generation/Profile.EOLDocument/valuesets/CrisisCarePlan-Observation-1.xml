@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<meta>
+		<lastUpdated value="2016-08-23"/>
+	</meta>
+	<url value="http://fhir.nhs.net/ValueSet/crisiscareplan-observation-1"/>
+	<name value="Crisis Observations"/>
+	<status value="draft"/>
+	<description value="A valueset that defines the codes used to describe a crisis observation."/>
+<codeSystem>
+<system value="http://fhir.nhs.net/ValueSet/crisiscareplan-observation-1"/>
+         <concept>
+        <code value="ICOSD"/>
+        <display value="In Case of Sudden Deterioration"/>
+	  </concept>	
+    </codeSystem>
+    <codeSystem>
+         <concept>
+        <code value="ICOGD"/>
+        <display value="In Case of Gradual Deterioration"/>
+	  </concept>	
+    </codeSystem>
+     <codeSystem>
+         <concept>
+        <code value="ICOB"/>
+        <display value="In Case of Breathlessness"/>
+	  </concept>	
+    </codeSystem>
+    <codeSystem>
+       <concept>
+        <code value="ICOPC"/>
+        <display value="In Case of Pain Crises"/>
+	  </concept>	
+    </codeSystem>
+    <codeSystem>
+       <concept>
+        <code value="ICOS"/>
+        <display value="In Case of Seizures"/>
+	  </concept>	
+    </codeSystem>
+     <codeSystem>
+       <concept>
+        <code value="ICOMH"/>
+        <display value="In Case of Major Haemorrhage"/>
+	  </concept>	
+    </codeSystem>
+     <codeSystem>
+       <concept>
+        <code value="ICOI"/>
+        <display value="In Case of Infections"/>
+	  </concept>	
+    </codeSystem>
+     <codeSystem>
+       <concept>
+        <code value="ICONV"/>
+        <display value="In Case of Nausea/Vomiting"/>
+	  </concept>	
+    </codeSystem>
+    <codeSystem>
+       <concept>
+        <code value="AMHEPSMP"/>
+        <display value="Anticipated Mental Health Emergencies Management Plan"/>
+	  </concept>	
+    </codeSystem>
+   <codeSystem>
+       <concept>
+        <code value="ICOR"/>
+        <display value="In Case of Restlessness"/>
+	  </concept>	
+    </codeSystem>
+       <codeSystem>
+       <concept>
+        <code value="ICORS"/>
+        <display value="In Case of Respiratory Secretions"/>
+	  </concept>	
+    </codeSystem>
+       <codeSystem>
+       <concept>
+        <code value="ICOO"/>
+        <display value="In Case of Others"/>
+	  </concept>	
+    </codeSystem>
+       <codeSystem>
+       <concept>
+        <code value="AA"/>
+        <display value="Anticipated Actions"/>
+	  </concept>	
+    </codeSystem>
+      <codeSystem>
+       <concept>
+        <code value="POC"/>
+        <display value="Priorities of Care"/>
+	  </concept>	
+    </codeSystem>
+    <codeSystem>
+       <concept>
+        <code value="CCO"/>
+        <display value="Crisis Care Observation"/>
+	  </concept>	
+    </codeSystem>
+</ValueSet>

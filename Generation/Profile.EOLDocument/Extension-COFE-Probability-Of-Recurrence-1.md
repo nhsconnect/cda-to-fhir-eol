@@ -1,0 +1,1 @@
+An extension to represent the probability of recurrence of an allergy or intolerance.

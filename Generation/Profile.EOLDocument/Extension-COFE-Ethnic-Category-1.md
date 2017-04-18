@@ -1,0 +1,1 @@
+An extension to represent the ethnic category of the patient.

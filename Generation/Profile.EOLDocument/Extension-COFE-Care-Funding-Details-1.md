@@ -1,0 +1,1 @@
+An extension to detail the patients care funding source and any conditions or limitations associated with it.

@@ -1,0 +1,1 @@
+Extension to represent the form of the medicinal substance.

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<RelatedPerson xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/relatedperson.xsd">
+	<id value="892fa432-9a51-4736-9dcd-02ec3107f872"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-relatedperson-1"/>
+	</meta>
+	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-function-code-1">
+	<valueCodeableConcept>
+		<coding >
+			<system value="2.16.840.1.113883.2.1.3.2.4.17.300"/>
+			<code value="01"/>
+			<display value="Lasting Power of Attorney - property and financial only"/>
+		</coding>
+	</valueCodeableConcept>
+</extension>
+<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-type-1">
+	<valueCodeableConcept>
+		<coding >
+			<system value="http://fhir.nhs.net/ValueSet/participant-type-1"/>
+			<code value="NOT"/>
+			<display value="Ugent notification contact"/>
+		</coding>
+	</valueCodeableConcept>
+</extension>
+	<identifier>
+		<system value="2.16.840.1.113883.2.1.3.2.4.15"/>
+		<value value="184142008"/>
+	</identifier>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>	
+	</patient>
+	<!--missing the functioncode. Not part of the FHIR model. Design review needed-->
+<relationship>
+	<coding>
+			<system value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1"/>
+			<code value="22"/>
+			<display value="Wife"/>
+	</coding>
+</relationship>
+<name>
+<use value="official"/>
+	<family value="Bloggs"/>
+	<given value="Sarah"/>
+	<prefix value="Mrs"/>
+</name>
+<telecom>
+	<value value="01235680246"/>
+	<use value="home"/>
+	</telecom>
+<address>
+<use value="home"/>
+	<line value="321 Brighton Rock"/>
+	<city value="Gumford"/>
+	<district value="East Sussex"/>
+</address>
+</RelatedPerson>

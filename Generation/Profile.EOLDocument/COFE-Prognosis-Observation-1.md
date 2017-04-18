@@ -1,0 +1,1 @@
+This Observation resource represents a patients prognosis that is part of their crisis care plan.
