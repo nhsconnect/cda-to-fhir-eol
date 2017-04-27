@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2013-10-28T23:00:00+00:00"
+  },
+  "url": "https://fhir.nhs.uk/ValueSet/section-type-snct-1",
+  "name": "Section Type SnCT",
+  "status": "active",
+  "description": "A code from the SNOMED Clinical Terminology UK coding system which represent the type of section. Any code from the SNOMED CT UKsubset with subset original id 55061000000137",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "55061000000137"
+          }
+        ]
+      }
+    ]
+  }
+}

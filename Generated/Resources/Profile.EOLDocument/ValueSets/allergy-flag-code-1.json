@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2017-01-23T23:00:00+00:00"
+  },
+  "url": "https://fhir.nhs.uk/ValueSet/allergy-flag-code-1",
+  "name": "Allergy Flag Code",
+  "status": "draft",
+  "description": "A code from the SNOMED Clinical Terminology UK coding system which represent an allergy or adverse reaction propensity. Any concept code from the SNOMED CT UK 'Adverse Reaction Propensity' or 'Allergy Propensity' concept with concept original id 1011000000131  or 1101000000130; the corresponding SNOMED CT UK Refset fully specified names are 'Adverse reaction propensity simple reference set (foundation metadata concept)' with Refset Id 999000261000000107 and  'Allergy propensity simple reference set (foundation metadata concept)' with Refset Id 999000291000000101",
+  "codeSystem": {
+    "system": "http://snomed.info/sct",
+    "concept": [
+      {
+        "code": "59037007",
+        "display": "Drug intolerance"
+      },
+      {
+        "code": "418038007",
+        "display": "Propensity to adverse reactions to substance"
+      },
+      {
+        "code": "418471000",
+        "display": "Propensity to adverse reactions to food"
+      },
+      {
+        "code": "419511003",
+        "display": "Propensity to adverse reactions to drug"
+      },
+      {
+        "code": "414285001",
+        "display": "Food allergy"
+      },
+      {
+        "code": "416098002",
+        "display": "Drug allergy"
+      },
+      {
+        "code": "419199007",
+        "display": "Allergy to substance"
+      }
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "999000261000000107"
+          },
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "999000291000000101"
+          }
+        ]
+      }
+    ]
+  }
+}

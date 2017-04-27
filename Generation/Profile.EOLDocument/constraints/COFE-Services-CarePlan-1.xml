@@ -778,7 +778,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
       </type>
       <isSummary value="true" />
     </element>
@@ -4134,7 +4134,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
       </type>
       <isSummary value="true" />
     </element>

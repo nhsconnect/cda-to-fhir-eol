@@ -1,0 +1,76 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2017-01-19T23:00:00+00:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-oid",
+      "valueUri": "urn:oid:1.2.36.1.2001.1001.101.104.16592"
+    }
+  ],
+  "url": "https://fhir.nhs.uk/ValueSet/medication-list-flag-code-1",
+  "name": "Medication List Flag Code",
+  "status": "draft",
+  "description": "Detail codes identifying medication change types.",
+  "codeSystem": {
+    "system": "https://fhir.nhs.uk/medication-list-flag-code-1",
+    "concept": [
+      {
+        "code": "01",
+        "display": "Continued",
+        "definition": "No change has been made to the status of this medicine item."
+      },
+      {
+        "code": "02",
+        "display": "Amendment",
+        "definition": "The medicine item has changed."
+      },
+      {
+        "code": "03",
+        "display": "Cancelled",
+        "definition": "The prescription for this medicine item was cancelled by an authorized health care provider. The patient may be advised to complete the course of the prescribed medicine. This advice is a clinical decision made based on assessment of the patient's clinical condition."
+      },
+      {
+        "code": "04",
+        "display": "Addition",
+        "definition": "A new medicine item has been prescribed."
+      },
+      {
+        "code": "05",
+        "display": "Discontinued",
+        "definition": "Administration of this medication item that the patient is currently taking is stopped (i.e. instructed to be ceased by a health care provider). This cessation is anticipated to be permanent. The Change Description should describe the reason for cessation. Example uses: the medication in question is considered ineffective or has caused serious adverse effects. This value applies both to the cessation of a medication that is prescribed by another healthcare provider or patient self-administration of OTC medicines."
+      },
+      {
+        "code": "06",
+        "display": "Suspended",
+        "definition": "Administration of this medication item that the patient is currently taking is on hold, or instructed or recommended by a health care provider to be temporarily stopped, or subject to clinical review (i.e. the stop may be temporary or permanent depending on the outcome of clinical review), or temporarily suspended as a pre-requisite to certain surgical or diagnostic procedures."
+      },
+      {
+        "code": "07",
+        "display": "Recommendation ",
+        "definition": "A recommendation for the patient to be given a medication."
+      },
+      {
+        "code": "08",
+        "display": "Active",
+        "definition": "This is an active medication."
+      },
+      {
+        "code": "09",
+        "display": "Never Active",
+        "definition": "A medication which was ordered or authorised but has been cancelled prior to being issued, dispensed or administered."
+      },
+      {
+        "code": "10",
+        "display": "Course Completed ",
+        "definition": "The medication course has been completed."
+      },
+      {
+        "code": "11",
+        "display": "Obsolete",
+        "definition": "This medication order has been superseded by another."
+      }
+    ]
+  }
+}

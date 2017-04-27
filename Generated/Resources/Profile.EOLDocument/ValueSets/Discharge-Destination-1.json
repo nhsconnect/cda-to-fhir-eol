@@ -1,0 +1,97 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2015-06-23T00:00:00+01:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-oid",
+      "valueUri": "urn:oid:2.16.840.1.113883.2.1.3.2.4.16.40"
+    }
+  ],
+  "url": "http://fhir.nhs.net/ValueSet/Discharge-Destination-1",
+  "name": "Discharge Destination NHS Data Model and Dictionary",
+  "status": "active",
+  "description": "A code representing the destination of a patient on completion of a Hospital Provider Spell, or a note that the patient died or was a still birth, using the values listed in the NHS Data Model and Dictionary definition for Discharge Destination.",
+  "codeSystem": {
+    "system": "http://fhir.nhs.net/Discharge-Destination-1",
+    "concept": [
+      {
+        "code": "19",
+        "display": "Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by local authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes PATIENTS with no fixed abode."
+      },
+      {
+        "code": "29",
+        "display": "Temporary place of residence when usually resident elsewhere (includes hotel, residential educational establishment)"
+      },
+      {
+        "code": "30",
+        "display": "Repatriation from high security psychiatric accommodation in an NHS hospital provider (NHS trust)"
+      },
+      {
+        "code": "37",
+        "display": "Court"
+      },
+      {
+        "code": "38",
+        "display": "Penal establishment or police station"
+      },
+      {
+        "code": "48",
+        "display": "High Security Psychiatric Hospital, Scotland"
+      },
+      {
+        "code": "49",
+        "display": "NHS other hospital provider - high security psychiatric accommodation"
+      },
+      {
+        "code": "50",
+        "display": "NHS other hospital provider - medium secure unit"
+      },
+      {
+        "code": "51",
+        "display": "NHS other hospital provider - ward for general patients or the younger physically disabled"
+      },
+      {
+        "code": "52",
+        "display": "NHS other hospital provider - ward for maternity patients or neonates"
+      },
+      {
+        "code": "53",
+        "display": "NHS other hospital provider - ward for patients who are mentally ill or have learning disabilities"
+      },
+      {
+        "code": "54",
+        "display": "NHS run care home"
+      },
+      {
+        "code": "65",
+        "display": "Local Authority residential accommodation i.e. where care is provided"
+      },
+      {
+        "code": "66",
+        "display": "Local Authority foster care"
+      },
+      {
+        "code": "79",
+        "display": "Not applicable - patient died or still birth"
+      },
+      {
+        "code": "84",
+        "display": "Non-NHS run hospital - medium secure unit"
+      },
+      {
+        "code": "85",
+        "display": "Non-NHS (other than Local Authority) run care home"
+      },
+      {
+        "code": "87",
+        "display": "Non-NHS run hospital"
+      },
+      {
+        "code": "88",
+        "display": "Non-NHS (other than Local Authority) run Hospice"
+      }
+    ]
+  }
+}

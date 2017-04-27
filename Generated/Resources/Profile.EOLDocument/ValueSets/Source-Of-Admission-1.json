@@ -1,0 +1,77 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2015-06-26T00:00:00+01:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-oid",
+      "valueUri": "urn:oid:2.16.840.1.113883.2.1.3.2.4.17.509"
+    }
+  ],
+  "url": "http://fhir.nhs.net/ValueSet/Source-Of-Admission-1",
+  "name": "Source Of Admission NHS Data Model and Dictionary",
+  "status": "active",
+  "description": "A set of codes representing where the patient was immediately prior to admission, using the values listed in the NHS Data Model and Dictionary definition for Source of Admission. For example, the usual place of residence, temporary place of residence, penal establishment etc...",
+  "codeSystem": {
+    "system": "http://fhir.nhs.net/Source-Of-Admission-1",
+    "concept": [
+      {
+        "code": "19",
+        "display": "Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes Wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."
+      },
+      {
+        "code": "29",
+        "display": "Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)"
+      },
+      {
+        "code": "39",
+        "display": "Penal establishment, Court, or Police Station / Police Custody Suite"
+      },
+      {
+        "code": "49",
+        "display": "NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"
+      },
+      {
+        "code": "51",
+        "display": "NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department"
+      },
+      {
+        "code": "52",
+        "display": "NHS other Hospital Provider - Ward for maternity Patients or Neonates"
+      },
+      {
+        "code": "53",
+        "display": "NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"
+      },
+      {
+        "code": "54",
+        "display": "NHS run Care Home"
+      },
+      {
+        "code": "65",
+        "display": "Local Authority residential accommodation i.e. where care is provided"
+      },
+      {
+        "code": "66",
+        "display": "Local Authority foster care"
+      },
+      {
+        "code": "79",
+        "display": "Babies born in or on the way to hospital"
+      },
+      {
+        "code": "85",
+        "display": "Non-NHS (other than Local Authority) run Care Home"
+      },
+      {
+        "code": "87",
+        "display": "Non NHS run hospital"
+      },
+      {
+        "code": "88",
+        "display": "Non-NHS (other than Local Authority) run Hospice"
+      }
+    ]
+  }
+}

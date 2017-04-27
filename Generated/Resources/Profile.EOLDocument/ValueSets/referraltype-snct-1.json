@@ -1,0 +1,30 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2007-11-25T23:00:00+00:00"
+  },
+  "url": "http://fhir.nhs.net/ValueSet/referraltype-snct-1",
+  "name": "Referral Type SnCT",
+  "status": "active",
+  "description": "A code from the SNOMED Clinical Terminology UK coding system which represent a referral by either a service or person . This vocab contains distinct set of codes. Any leaf concept code from the SNOMED CT UK 'Referral by Person' or 'Referral by Service' concept with concept original id 307834000  or 307835004.",
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "307834000"
+          },
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "307835004"
+          }
+        ]
+      }
+    ]
+  }
+}

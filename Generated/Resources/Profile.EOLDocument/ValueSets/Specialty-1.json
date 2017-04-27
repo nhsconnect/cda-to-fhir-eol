@@ -1,0 +1,10 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2016-12-15T23:00:00+00:00"
+  },
+  "url": "http://fhir.nhs.net/ValueSet/Specialty-1",
+  "name": "Referral Request Specialty",
+  "status": "active",
+  "description": "A set of specialty codes for referrals. Code list is externally maintained."
+}

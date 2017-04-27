@@ -1,0 +1,39 @@
+{
+  "resourceType": "Location",
+  "id": "01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3",
+  "meta": {
+    "profile": [
+      "http://fhir.nhs.net/StructureDefinition/cofe-location-1"
+    ]
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://fhir.nhs.net/Id/ods-site-code",
+      "value": "RJZ46"
+    }
+  ],
+  "name": "Haemotology Clinics",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "1271000000134",
+        "display": "concept"
+      }
+    ]
+  },
+  "address": {
+    "use": "work",
+    "line": [
+      "Denmark Hill"
+    ],
+    "city": "London",
+    "postalCode": "SE59RS",
+    "country": "GBR"
+  },
+  "managingOrganization": {
+    "reference": "Organization/1474506e-609d-412e-952b-4bc74d769038",
+    "display": "King's College Hospital"
+  }
+}

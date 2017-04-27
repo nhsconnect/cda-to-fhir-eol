@@ -36,9 +36,9 @@ This specification should be read in conjunction with the following specificatio
 
 **Further Information**
 
-This FHIR Document specification is based on and intended to be used alongside the published [FHIR DSTU2 1.0.1] (October 2015) specification. 
+This FHIR Document specification is based on and intended to be used alongside the published [FHIR DSTU2 1.0.2] (October 2015) specification. 
 
-[FHIR DSTU2 1.0.1]: http://www.hl7.org/fhir/DSTU2/index.html
+[FHIR DSTU2 1.0.2]: http://www.hl7.org/fhir/DSTU2/index.html
 
 <font color="red">**Note**
 

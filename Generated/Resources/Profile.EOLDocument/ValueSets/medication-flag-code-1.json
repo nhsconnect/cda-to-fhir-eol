@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2017-01-19T23:00:00+00:00"
+  },
+  "url": "http://fhir.nhs.net/ValueSet/medication-flag-code-1",
+  "name": "Medication Flag Code",
+  "status": "draft",
+  "description": "Detail codes identifying specific medication flags.",
+  "codeSystem": {
+    "system": "http://fhir.nhs.net/medication-flag-code-1",
+    "concept": [
+      {
+        "code": "01",
+        "display": "Do not discontinue medication"
+      },
+      {
+        "code": "02",
+        "display": "Continue medication indefinitely"
+      },
+      {
+        "code": "03",
+        "display": "Stop medication when course complete"
+      }
+    ]
+  }
+}

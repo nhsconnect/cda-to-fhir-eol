@@ -104,7 +104,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-informant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-informant-1" />
       </type>
     </element>
     <element>
@@ -1344,7 +1344,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -4239,7 +4239,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-informant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-informant-1" />
       </type>
     </element>
     <element>
@@ -5155,7 +5155,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
       </type>
       <isSummary value="true" />
       <mapping>

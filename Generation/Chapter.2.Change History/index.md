@@ -10,7 +10,8 @@ Changes in this release reflect the national adoption of the INTEROPen CareConne
 - COFE-Composition-End-Of-Life-1 profile updated to reflect 'maturer' NHS FHIR Document approach
 - Medications design approach using FHIR resources to support the PRSB heading model for medication and devices 
 - Allergies design approach using FHIR resources to support the PRSB heading model for allergies 
-- COFE-Document-Bundle-1 - profile now specifies entry elements
+- COFE-Document-Bundle-1 - profile now specifies entry elements including the fullURL element, which contains the identity of the resource in the entry.
+
 
 **Value-sets:**
 

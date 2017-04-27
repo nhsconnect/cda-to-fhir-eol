@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2016-08-03T00:00:00+01:00"
+  },
+  "url": "http://fhir.nhs.net/ValueSet/residential-status-1",
+  "name": "Residential Status",
+  "status": "active",
+  "description": "A vocabulary that identifies the residential status of the patient. ",
+  "codeSystem": {
+    "system": "http://fhir.nhs.net/residential-status-1",
+    "concept": [
+      {
+        "code": "H",
+        "display": "UK Resident"
+      },
+      {
+        "code": "O",
+        "display": "Overseas Resident"
+      }
+    ]
+  }
+}

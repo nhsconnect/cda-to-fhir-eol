@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2015-06-23T00:00:00+01:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-oid",
+      "valueUri": "urn:oid:2.16.840.1.113883.2.1.3.2.4.16.41"
+    }
+  ],
+  "url": "http://fhir.nhs.net/ValueSet/Discharge-Method-1",
+  "name": "Discharge Method NHS Data Model and Dictionary",
+  "status": "active",
+  "description": "A code representing the method used to discharge a patient from care, typically an acute inpatient episode, using the values listed in the NHS Data Model and Dictionary definition for Discharge Method.",
+  "codeSystem": {
+    "system": "http://fhir.nhs.net/Discharge-Method-1",
+    "concept": [
+      {
+        "code": "1",
+        "display": "Patient discharged on clinical advice or with clinical consent"
+      },
+      {
+        "code": "2",
+        "display": "Patient discharged him/herself or was discharged by a relative or advocate"
+      },
+      {
+        "code": "3",
+        "display": "Patient discharged by mental health review tribunal, Home Secretary or court"
+      },
+      {
+        "code": "4",
+        "display": "Patient died"
+      },
+      {
+        "code": "5",
+        "display": "Stillbirth"
+      }
+    ]
+  }
+}

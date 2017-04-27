@@ -1047,7 +1047,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -1961,7 +1961,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />

@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2016-09-02T00:00:00+01:00"
+  },
+  "url": "http://fhir.nhs.net/ValueSet/flag-category-1",
+  "name": "Flag Category",
+  "status": "draft",
+  "description": "A vocabulary that should be used to define the category of the flag.",
+  "codeSystem": {
+    "system": "http://fhir.nhs.net/ValueSet/flag-category-1",
+    "concept": [
+      {
+        "code": "222701000000104",
+        "display": "Risk to patient"
+      },
+      {
+        "code": "406556003",
+        "display": "High risk of harm to others"
+      },
+      {
+        "code": "414382000",
+        "display": "Healthcare Professional at risk"
+      },
+      {
+        "code": "CR",
+        "display": "Clinical Risks"
+      }
+    ]
+  }
+}
